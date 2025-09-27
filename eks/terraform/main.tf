@@ -63,7 +63,7 @@ module "eks" {
       min_size     = 1
       max_size     = 3
       desired_size = 3
-
+      # disk_type = "gp3" # set this for faster deployment of ebs addon, this is default recommended from aws
       instance_types = ["t2.small"]
 
       # add permission for ebs storage creation for Consul
