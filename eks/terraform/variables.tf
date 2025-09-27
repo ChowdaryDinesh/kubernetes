@@ -1,5 +1,5 @@
 variable vpc_cidr {
-    description = "VPC cide block"
+    description = "VPC cidr block"
     default = "172.60.0.0/16"
 }
 
@@ -14,7 +14,7 @@ variable k8s_version {
 }
 
 variable k8s_cluster_name {
-    default = "myapp-eks-cluster"
+    default = "eks-cluster"
     type = "string"
 }
 
